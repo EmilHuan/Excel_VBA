@@ -86,6 +86,6 @@ Attribute 自動調整欄寬及自行字體.VB_ProcData.VB_Invoke_Func = "d\n14"
         .Size = 12
     End With
 
-'調整表格欄寬至內容長度 (表格一定要從 A1 開始，且資料大於一列)
+'調整表格欄寬至內容長度 (表格一定要從 A1 開始，，且表格要大於一列，只有欄位列也 ok)
     Range("A1").CurrentRegion.Columns.AutoFit
 End Sub
